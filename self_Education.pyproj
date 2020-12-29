@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1fbd1444-5aa8-49a2-aeca-6f40ad20123e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>exc1.py</StartupFile>
+    <StartupFile>exc3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="exc1.py" />
+    <Compile Include="exc2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exc3.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
