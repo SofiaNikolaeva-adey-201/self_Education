@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1fbd1444-5aa8-49a2-aeca-6f40ad20123e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>exc3.py</StartupFile>
+    <StartupFile>exc4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="exc3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exc4.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
